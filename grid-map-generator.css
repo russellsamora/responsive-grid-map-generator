@@ -1,0 +1,57 @@
+.header-choices {
+	margin-bottom: 0.5em;
+}
+.header-choice {
+	border-bottom: 1px solid #ccc;
+}
+.header-choice span {
+	display: inline-block;
+	min-width: 80px;
+	color: #000;
+	font-size: 0.9em;
+}
+.button-choices {
+	display: inline-block;
+}
+.button-choices button {
+	display: inline;
+	cursor: pointer;
+	background: #ccc;
+	color: #fff;
+	width: auto;
+	text-transform: uppercase;
+	margin: 0.5em auto;
+	padding: 0.5em;
+	border: none;
+}
+.button-choices button.current-choice {
+	background: #000;
+	color: #fff;
+	letter-spacing: 0.05em;
+}
+
+.breakpoint-container {
+	height: 100%;
+	overflow: hidden;
+}
+#breakpoint-slider {
+	display: inline;
+	float: left;
+	margin: 0;
+	width: 80%;
+}
+#breakpoint-text {
+	margin: 0;
+	display: inline;
+	float: left;
+	margin-left: 5%;
+	width: 15%;
+	text-align: center;
+}
+
+.rg-table tr {
+	cursor: pointer;
+}
+.choose-scale-group {
+	margin-top: 2em;
+}

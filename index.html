@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+        <title>Responsive Grid Map Generator</title>
+        <meta name='description' content='A CSS and HTML responsive table generator by Russell Goldenberg.'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' href='http://russellgoldenberg.github.io/responsive-table-generator/base.css'>
+        <!-- smoosh -->
+        <link rel='stylesheet' href='grid-map-generator.css'>
+        <!-- endsmoosh -->
+        <link rel='shortcut icon' type='image/png' href='favicon.png'>
+    </head>
+    <body>
+        <div class='container'>
+            <section>
+                <h2>Responsive Grid Map Generator v0.1</h2>
+                <p class='intro'>
+                    Tile grid map generator for the United States of America.
+                </p>
+                <p class='instructions'>
+                    Copy and paste data from Excel or Google spreadsheets.
+                    Load sample data:
+                    <a class='demo' href='#' data-demo='quantitative-1'>one</a>,
+                    <a class='demo' href='#' data-demo='quantitative-2'>two</a>,
+                    <a class='demo' href='#' data-demo='ordinal'>three</a>.
+                </p>
+                <textarea class='input'></textarea>
+                <button class='generate'>Get started</button>
+                <div class='choose-scale-group hide'>
+                    <p>
+                        Is this dataset a <a href='#' data-scale='quantitative' class='choose-scale'>range of numbers</a> or <a href='#' data-scale='ordinal' class='choose-scale'>categorical groupings</a>?
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div class='final hide'>
+                    <h3>Preview</h3>
+                    <p>
+                        Replace underlined text with your copy below, then click 'generate code'. If you don't want a hed or a subhed, delete the contents. The generated code will remove the whitespace. Click a row to toggle on/off highlighting.
+                    </p>
+                    <div class='preview'></div>
+                    <button class='generate-code'>Generate code</button>
+                </div>
+            </section>
+            <section>
+                <div class='final hide'>
+                    <textarea class='output-code'></textarea>
+                </div>
+                <div class='credits'>
+                    See the <a target='_blank' href='https://github.com/russellgoldenberg/responsive-grid-map-generator'>github repo</a> to submit issues and/or feature requests.
+                    </p>
+                    <p>
+                        Email russell.goldenberg@globe.com for Globe related questions.
+                    </p>
+                    <p class='russell'>
+                        <a target='_blank' href='http://russellgoldenberg.com'><img src='http://russellgoldenberg.com/img/codenberg.png'></a>
+                    </p>
+                </div>
+            </section>
+        </div>
+    </body>
+    <script src='jquery.min.js'></script>
+    <script src='numeral.min.js'></script>
+    <script src='d3.min.js'></script>
+    <script src='lodash.min.js'></script>
+    <!-- smoosh -->
+    <script src='responsive-grid-map.js'></script>
+    <!-- endsmoosh -->
+</html>

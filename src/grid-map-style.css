@@ -1,0 +1,93 @@
+/*styles for graphic info (hed, subhed, source, credit)*/
+.rg-container {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1;
+	margin: 0;
+	padding: 1em 0;
+	color: #1a1a1a;
+}
+.rg-header {
+	margin-bottom: 1em;
+}
+.rg-hed {
+	font-family: "Benton Sans Bold", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-bottom: 0.25em;
+}
+.rg-subhed {
+	font-size: 0.9em;
+	line-height: 1.4em;
+}
+.rg-source-and-credit {
+	font-family: Georgia,"Times New Roman", Times,serif;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 1em;
+}
+.rg-source {
+	margin: 0;
+	float: left;
+	font-weight: bold;
+	font-size: 0.75em;
+	line-height: 1.5em;
+}
+.rg-source .pre-colon {
+	text-transform: uppercase;
+}
+/*styles for map*/
+.rg-map {
+	margin-bottom: 1em;
+}
+.rg-state rect {
+	stroke: #fff;
+	stroke-width: 2px;
+	fill: #eee;
+}
+.rg-state text {
+	font-family: "Benton Sans Bold", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	fill: #ccc;
+}
+.rg-hide {
+	display: none;
+}
+.rg-legend {
+	max-width: 480px;
+	margin-bottom: 1em;
+}
+.rg-legend-minmax {
+	height: 100%;
+	overflow: hidden;
+}
+.rg-legend-minmax p {
+	font-size: 0.8em;
+	color: #888;
+	width: 50%;
+	float: left;
+	line-height: 1;
+}
+.rg-legend-minmax p:last-child {
+	text-align: right;
+}
+.rg-legend ul {
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+ul.rg-legend-quantitative li {
+	list-style-type: none;
+	float: left;
+	width: 12.5%;
+	height: 1em;
+	margin: 0;
+}
+ul.rg-legend-ordinal li {
+	list-style-type: none;
+	float: left;
+	font-size: 0.8em;
+	padding: 0.5em;
+	margin-right: 0.5em;
+}
