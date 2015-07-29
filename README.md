@@ -1,10 +1,10 @@
 Responsive Table Generator
 ==============================
 
-[Try it now](http://russellgoldenberg.github.io/responsive-table-generator)
+[Try it now](http://russellgoldenberg.github.io/responsive-grid-map-generator)
 
 ### Description
-HTML/CSS only responsive table generator for your next table.
+Tile grid map generator for the United States of America.
 
 ### Browser compatibility
 Probably everything.
@@ -15,4 +15,4 @@ Requires [node](http://nodejs.org)
 - Run `npm install`
 - Then run `gulp`
 
-The two key things to edit are `src/responsive-table.js` and `src/table-style.css`.
+The two key things to edit are `src/responsive-grid-map.js` and `src/grid-map-style.css`.
