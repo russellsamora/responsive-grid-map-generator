@@ -27,8 +27,6 @@
 		'ordinal': ['#437286','#75b081', '#d4cead', '#ae6a78', '#c1a5d9']
 	};
 
-	var COLORS = { 'sequential': null, 'diverging': null, 'ordinal': null };
-
 	var GRAY = { dark: '#444', light: '#eee' };
 
 	function init() {
