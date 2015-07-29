@@ -3,9 +3,9 @@
 	var _data = [{ name: 'Alabama', abbr: 'AL', x: 7, y: 6 },{ name: 'Alaska', abbr: 'AK', x: 0, y: 0 },{ name: 'Arizona', abbr: 'AZ', x: 2, y: 5 },{ name: 'Arkansas', abbr: 'AR', x: 5, y: 5 },{ name: 'California', abbr: 'CA', x: 1, y: 4 },{ name: 'Colorado', abbr: 'CO', x: 3, y: 4 },{ name: 'Connecticut', abbr: 'CT', x: 10, y: 3 },{ name: 'Delaware', abbr: 'DE', x: 10, y: 4 },{ name: 'Florida', abbr: 'FL', x: 9, y: 7 },{ name: 'Georgia', abbr: 'GA', x: 8, y: 6 },{ name: 'Hawaii', abbr: 'HI', x: 0, y: 7 },{ name: 'Idaho', abbr: 'ID', x: 2, y: 2 },{ name: 'Illinois', abbr: 'IL', x: 6, y: 2 },{ name: 'Indiana', abbr: 'IN', x: 6, y: 3 },{ name: 'Iowa', abbr: 'IA', x: 5, y: 3 },{ name: 'Kansas', abbr: 'KS', x: 4, y: 5 },{ name: 'Kentucky', abbr: 'KY', x: 6, y: 4 },{ name: 'Louisiana', abbr: 'LA', x: 5, y: 6 },{ name: 'Maine', abbr: 'ME', x: 11, y: 0 },{ name: 'Maryland', abbr: 'MD', x: 9, y: 4 },{ name: 'Massachusetts', abbr: 'MA', x: 10, y: 2 },{ name: 'Michigan', abbr: 'MI', x: 7, y: 2 },{ name: 'Minnesota', abbr: 'MN', x: 5, y: 2 },{ name: 'Mississippi', abbr: 'MS', x: 6, y: 6 },{ name: 'Missouri', abbr: 'MO', x: 5, y: 4 },{ name: 'Montana', abbr: 'MT', x: 3, y: 2 },{ name: 'Nebraska', abbr: 'NE', x: 4, y: 4 },{ name: 'Nevada', abbr: 'NV', x: 2, y: 3 },{ name: 'New Hampshire', abbr: 'NH', x: 11, y: 1 },{ name: 'New Jersey', abbr: 'NJ', x: 9, y: 3 },{ name: 'New Mexico', abbr: 'NM', x: 3, y: 5 },{ name: 'New York', abbr: 'NY', x: 9, y: 2 },{ name: 'North Carolina', abbr: 'NC', x: 7, y: 5 },{ name: 'North Dakota', abbr: 'ND', x: 4, y: 2 },{ name: 'Ohio', abbr: 'OH', x: 7, y: 3 },{ name: 'Oklahoma', abbr: 'OK', x: 4, y: 6 },{ name: 'Oregon', abbr: 'OR', x: 1, y: 3 },{ name: 'Pennsylvania', abbr: 'PA', x: 8, y: 3 },{ name: 'Rhode Island', abbr: 'RI', x: 11, y: 3 },{ name: 'South Carolina', abbr: 'SC', x: 8, y: 5 },{ name: 'South Dakota', abbr: 'SD', x: 4, y: 3 },{ name: 'Tennessee', abbr: 'TN', x: 6, y: 5 },{ name: 'Texas', abbr: 'TX', x: 4, y: 7 },{ name: 'Utah', abbr: 'UT', x: 2, y: 4 },{ name: 'Vermont', abbr: 'VT', x: 10, y: 1 },{ name: 'Virginia', abbr: 'VA', x: 8, y: 4 },{ name: 'Washington', abbr: 'WA', x: 1, y: 2 },{ name: 'West Virginia', abbr: 'WV', x: 7, y: 4 },{ name: 'Wisconsin', abbr: 'WI', x: 6, y: 1 },{ name: 'Wyoming', abbr: 'WY', x: 3, y: 3 },{ name: 'District of Columbia', abbr: 'DC', x: 9, y: 5 }];
 	
 	var _demo = {
-		'quantitative-1': 'Alabama\t73\nAlaska\t10\nArizona\t32\nArkansas\t35\nCalifornia\t51\nColorado\t63\nConnecticut\t41\nDelaware\t61\nFlorida\t79\nGeorgia\t87\nHawaii\t44\nIdaho\t24\nIllinois\t64\nIndiana\t62\nIowa\t54\nKansas\t24\nKentucky\t16\nLouisiana\t65\nMaine\t71\nMaryland\t89\nMassachusetts\t15\nMichigan\t74\nMinnesota\t52\nMississippi\t56\nMissouri\t75\nMontana\t35\nNebraska\t43\nNevada\t28\nNew Hampshire\t51\nNew Jersey\t39\nNew Mexico\t73\nNew York\t49\nNorth Carolina\t77\nNorth Dakota\t84\nOhio\t97\nOklahoma\t24\nOregon\t31\nPennsylvania\t18\nRhode Island\t61\nSouth Carolina\t38\nSouth Dakota\t24\nTennessee\t76\nTexas\t84\nUtah\t32\nVermont\t41\nVirginia\t68\nWashington\t91\nWest Virginia\t37\nWisconsin\t36\nWyoming\t37',
-		'quantitative-2': 'AL\t$7.25\nAK\t$8.75\nAZ\t$8.05\nAR\t$7.50\nCA\t$9.00\nCO\t$8.14\nCT\t$9.15\nDE\t$8.25\nDC\t$10.50\nFL\t$8.05\nGA\t$7.25\nHI\t$7.75\nID\t$7.25\nIL\t$8.25\nIN\t$7.25\nIA\t$7.25\nKS\t$7.25\nKY\t$7.25\nLA\t$7.25\nME\t$7.50\nMD\t$8.00\nMA\t$9.00\nMI\t$8.15\nMN\t$9.00\nMS\t$7.25\nMO\t$7.65\nMT\t$8.05\nNE\t$8.00\nNV\t$8.25\nNH\t$7.25\nNJ\t$8.38\nMN\t$7.50\nNY\t$8.75\nNC\t$7.25\nND\t$7.25\nOH\t$8.15\nOK\t$7.25\nOR\t$9.25\nPA\t$7.25\nRI\t$9.00\nSC\t$7.25\nSD\t$8.50\nTN\t$7.25\nTX\t$7.25\nUT\t$7.25\nVT\t$9.15\nVA\t$7.25\nWA\t$9.47\nWV\t$8.00\nWI\t$7.25\nWY\t$7.25',
-		'ordinal': 'Alabama\tsomething\nAlaska\tdifferent thing\nArizona \tanother thing\nArkansas\tsomething\nCalifornia\tdifferent thing\nColorado\tsomething\nConnecticut\tsomething\nDelaware\tsomething\nDistrict of Columbia\tsomething\nFlorida\tsomething\nGeorgia \tanother thing\nHawaii\tsomething\nIdaho\tsomething\nIllinois \tanother thing\nIndiana\tsomething\nIowa\tsomething\nKansas \tanother thing\nKentucky\tsomething\nLouisiana \tanother thing\nMaine \tanother thing\nMaryland\tsomething\nMassachusetts\tsomething\nMichigan\tsomething\nMinnesota\tsomething\nMississippi \tanother thing\nMissouri\tsomething\nMontana\tsomething\nNebraska \tanother thing\nNevada\tdifferent thing\nNew Hampshire \tanother thing\nNew Jersey\tsomething\nNew Mexico\tsomething\nNew York\tsomething\nNorth Carolina\tsomething\nNorth Dakota\tdifferent thing\nOhio\tdifferent thing\nOklahoma\tdifferent thing\nOregon\tsomething\nPennsylvania\tdifferent thing\nRhode Island\tsomething\nSouth Carolina\tsomething\nSouth Dakota\tdifferent thing\nTennessee\tdifferent thing\nTexas\tsomething\nUtah\tdifferent thing\nVermont\tsomething\nVirginia\tsomething\nWashington\tdifferent thing\nWest Virginia\tdifferent thing\nWisconsin\tsomething\nWyoming\tsomething'
+		'sequential': 'AL\t$7.25\nAK\t$8.75\nAZ\t$8.05\nAR\t$7.50\nCA\t$9.00\nCO\t$8.14\nCT\t$9.15\nDE\t$8.25\nDC\t$10.50\nFL\t$8.05\nGA\t$7.25\nHI\t$7.75\nID\t$7.25\nIL\t$8.25\nIN\t$7.25\nIA\t$7.25\nKS\t$7.25\nKY\t$7.25\nLA\t$7.25\nME\t$7.50\nMD\t$8.00\nMA\t$9.00\nMI\t$8.15\nMN\t$9.00\nMS\t$7.25\nMO\t$7.65\nMT\t$8.05\nNE\t$8.00\nNV\t$8.25\nNH\t$7.25\nNJ\t$8.38\nMN\t$7.50\nNY\t$8.75\nNC\t$7.25\nND\t$7.25\nOH\t$8.15\nOK\t$7.25\nOR\t$9.25\nPA\t$7.25\nRI\t$9.00\nSC\t$7.25\nSD\t$8.50\nTN\t$7.25\nTX\t$7.25\nUT\t$7.25\nVT\t$9.15\nVA\t$7.25\nWA\t$9.47\nWV\t$8.00\nWI\t$7.25\nWY\t$7.25',
+		'diverging': 'Alabama\t73\nAlaska\t-10\nArizona\t32\nArkansas\t-35\nCalifornia\t51\nColorado\t-63\nConnecticut\t41\nDelaware\t-61\nFlorida\t79\nGeorgia\t-87\nHawaii\t44\nIdaho\t-24\nIllinois\t64\nIndiana\t-62\nIowa\t54\nKansas\t-24\nKentucky\t16\nLouisiana\t-65\nMaine\t71\nMaryland\t-89\nMassachusetts\t15\nMichigan\t-74\nMinnesota\t52\nMississippi\t56\nMissouri\t-75\nMontana\t35\nNebraska\t-43\nNevada\t28\nNew Hampshire\t51\nNew Jersey\t-39\nNew Mexico\t73\nNew York\t-49\nNorth Carolina\t77\nNorth Dakota\t84\nOhio\t97\nOklahoma\t-24\nOregon\t31\nPennsylvania\t18\nRhode Island\t-61\nSouth Carolina\t38\nSouth Dakota\t24\nTennessee\t-76\nTexas\t84\nUtah\t-32\nVermont\t41\nVirginia\t-68\nWashington\t91\nWest Virginia\t-37\nWisconsin\t36\nWyoming\t37',
+		'ordinal': 'Alabama\tlettuce\nAlaska\tkale\nArizona \tcucumber\nArkansas\tlettuce\nCalifornia\tkale\nColorado\tlettuce\nConnecticut\tlettuce\nDelaware\tlettuce\nDistrict of Columbia\tlettuce\nFlorida\tlettuce\nGeorgia \tcucumber\nHawaii\tlettuce\nIdaho\tlettuce\nIllinois \tcucumber\nIndiana\tlettuce\nIowa\tlettuce\nKansas \tcucumber\nKentucky\tlettuce\nLouisiana \tcucumber\nMaine \tcucumber\nMaryland\tlettuce\nMassachusetts\tlettuce\nMichigan\tlettuce\nMinnesota\tlettuce\nMississippi \tcucumber\nMissouri\tlettuce\nMontana\tlettuce\nNebraska \tcucumber\nNevada\tkale\nNew Hampshire \tcucumber\nNew Jersey\tlettuce\nNew Mexico\tlettuce\nNew York\tlettuce\nNorth Carolina\tlettuce\nNorth Dakota\tkale\nOhio\tkale\nOklahoma\tkale\nOregon\tlettuce\nPennsylvania\tkale\nRhode Island\tlettuce\nSouth Carolina\tlettuce\nSouth Dakota\tkale\nTennessee\tkale\nTexas\tlettuce\nUtah\tkale\nVermont\tlettuce\nVirginia\tlettuce\nWashington\tkale\nWest Virginia\tkale\nWisconsin\tlettuce\nWyoming\tlettuce'
 	};
 
 
@@ -21,74 +21,61 @@
 	var _extent;
 	var _dict;
 	
-	// color brewer YLGNBL
 	var COLORS = {
-		ordinal: {
-			3: ["#edf8b1","#7fcdbb","#2c7fb8"],
-			4: ["#ffffcc","#a1dab4","#41b6c4","#225ea8"],
-			5: ["#ffffcc","#a1dab4","#41b6c4","#2c7fb8","#253494"],
-			6: ["#ffffcc","#c7e9b4","#7fcdbb","#41b6c4","#2c7fb8","#253494"],
-			7: ["#ffffcc","#c7e9b4","#7fcdbb","#41b6c4","#1d91c0","#225ea8","#0c2c84"],
-			8: ["#ffffd9","#edf8b1","#c7e9b4","#7fcdbb","#41b6c4","#1d91c0","#225ea8","#0c2c84"],
-			9: ["#ffffd9","#edf8b1","#c7e9b4","#7fcdbb","#41b6c4","#1d91c0","#225ea8","#253494","#081d58"]	
-		},
-		quantitative: ["#deebf7","#c6dbef","#9ecae1","#6baed6","#4292c6","#2171b5","#08519c","#08306b"]
+		'sequential': ['#ecf5f9', '#cad9df', '#a8bcc6', '#85a0ac', '#648493', '#416779', '#1f4c60'],
+		'diverging': ['#1f4c60', '#668694', '#aec2ca', '#ededed', '#d6b0ac', '#ac6a63', '#82261c'],
+		'ordinal': ['#437286','#75b081', '#d4cead', '#ae6a78', '#c1a5d9']
 	};
 
 	var GRAY = { dark: '#444', light: '#eee' };
 
 	function init() {
-		bindEvents();
+		setupEvents();
 	}
 
-	function bindEvents() {
+	function setupEvents() {
 		$('.generate').on('click', function(e) {
 			e.preventDefault();	
-
+			
 			$('.preview').empty();
 			var val = $('.input').val();
+			
 			parseInput(val, function(err, data) {
 				if(err) {
 					alert(err);
 				} else {
-					chooseType(data);
+					chooseScale(data);
 				}
 			});
+
 			return false;
 		});
 
 		$('.demo').on('click', function(e) {
 			e.preventDefault();
+			
 			var demo = $(this).attr('data-demo');
 			$('.input').val(_demo[demo]);
+
 			return false;
 		});
 
-		$('.generate-code').on('click', function() {
-			generateCode();
-		});
+		$('.generate-code').on('click', generateCode);
 	}
 
-	function chooseType(data) {
+	function chooseScale(data) {
 		$('.choose-scale-group').removeClass('hide');
+
 		$('.choose-scale').on('click', function(e) {
 			e.preventDefault();
 			_scaleType = $(this).attr('data-scale');
+			
 			$('.choose-scale-group').addClass('hide');
 
-			bindDataToStates(data);
-			createScale(function(err, dict) {
-				if(err) {
-					alert(err);
-				} else {
-					createOutput(dict);		
-				}
-			});
-			
-			
+			beginMap(data);
 			return false;
 		});
-	} 
+	}
 
  	function parseInput(input, cb) {
 		var lines = input.split('\n');
@@ -133,28 +120,41 @@
 		cb(err, result);
 	}
 
+
+
+	
+	function beginMap(data) {
+		bindDataToStates(data);
+
+		createScale(function(err, dict) {
+			if(err) { alert(err); }
+			else {
+				createOutput(dict);		
+			}
+		});
+	}
+
 	function createScale(cb) {
-		if(_scaleType === 'quantitative') {
+		if(_scaleType === 'sequential' || _scaleType === 'diverging') {
 			_extent = d3.extent(_data, function(d) {
 				return d.value;
 			});
 
 			_scale = d3.scale.quantize()
 	    		.domain(_extent)
-	    		.range(COLORS.quantitative);	
+	    		.range(COLORS[_scaleType]);	
 
 	    	cb();
 		} else if(_scaleType === 'ordinal') {
 			// determine domain
 			var dict = createDict();
 
-			if(dict.length > 8) {
+			if(dict.length > COLORS.ordinal.length) {
 				cb('too many categories');
 			} else {
-				var numColors = Math.max(3, dict.length);
 				_scale = d3.scale.ordinal()
 		    		.domain(dict)
-		    		.range(COLORS.ordinal[numColors]);
+		    		.range(COLORS.ordinal.slice(0, dict.length));
 
 		    	cb(false, dict);
 			}
@@ -170,7 +170,6 @@
 		return output;
 	}
 
-	// make map
 	function createOutput(dict) {
 		var $container = $('<div class="rg-container"></div>');
 		var $header = $('<div class="rg-header"></div>');
@@ -215,11 +214,10 @@
 		}, 250);
 	}
 
-
 	function createLegend(dict) {
 		var html = '';
 		html += '<div class="rg-legend">';
-		if(_scaleType === 'quantitative') {
+		if(_scaleType === 'sequential' || _scaleType === 'diverging') {
 			var min;
 			var max;
 			// get string version of min and max
@@ -238,15 +236,15 @@
 			html += '</div>';
 			html += '<ul class="rg-legend-quantitative">';
 
-			for(var s = 0; s < COLORS.quantitative.length; s++){
-				html += '<li style="background-color: ' + COLORS.quantitative[s] + ';"></li>';
+			for(var s = 0; s < COLORS[_scaleType].length; s++){
+				html += '<li style="background-color: ' + COLORS[_scaleType][s] + ';"></li>';
 			}
 
 			html += '</ul>';
 		} else if(_scaleType === 'ordinal') {
 			html += '<ul class="rg-legend-ordinal">';
 			for(var i = 0; i < dict.length; i++) {
-				var col = COLORS.ordinal[dict.length][i];
+				var col = COLORS.ordinal[i];
 				var rgb = d3.rgb(col);
 				var hsl = rgb.hsl();
 				var offset = hsl.l - 0.5;
@@ -326,8 +324,8 @@
 			if(state) {
 				
 				if(datum.str.length) {
-					// quantitative
-					if(_scaleType === 'quantitative') {
+					// sequential
+					if(_scaleType === 'sequential' || _scaleType === 'diverging') {
 						state.value = datum.number;
 						state.value_string = datum.str;
 					} else if(_scaleType === 'ordinal') {
@@ -356,16 +354,7 @@
 
 	function generateCode() {
 		updateCopy();
-
-		var highlight = {};
-
-		$('.rg-table tr').each(function() {
-			if($(this).hasClass('highlight')) {
-				var index = $(this).index();
-				highlight[index] = true;
-			}
-		});
-
+		
 		var html = '';
 
 		var css = '@@include("../.tmp/grid-map-style.css")';
@@ -382,55 +371,11 @@
 			html += '\n\t\t<div class="rg-subhed">' + _copy.subhed + '</div>';	
 		}
 		html += '\n\t</div>';
-		html += '\n\t<div class="rg-content">';
-		if(_input.zebra) {
-			html += '\n\t\t<table class="rg-table zebra">';
-		} else {
-			html += '\n\t\t<table class="rg-table">';
-		}
 		
-		html += '\n\t\t\t<thead>';
+		html += '\n\t<div class="rg-content">';
+		
+		html += '\n\t\t' + $('.rg-content').html();
 
-		for (var i = 0; i < _data.headers.length; i++) {
-			var valTh = _data.headers[i];
-			var classesTh = _input.hideColumns[valTh] ? 'hide-mobile ' : '';
-			classesTh += _data.className[i] + ' rg-th';
-
-			var htmlTh = '\n\t\t\t\t<th class="'+ classesTh + '">' + _data.headers[i] + '</th>';
-			
-			html += htmlTh;
-		}
-
-		html += '\n\t\t\t</thead>';
-		html += '\n\t\t\t<tbody>';
-
-		for (var a = 0; a < _data.rows.length; a++) {
-			var row = _data.rows[a];
-			var trClasses = '';
-			trClasses += a < _input.mobileRows ? '' : 'hide-mobile';
-			if(highlight[a]) {
-				trClasses += ' highlight';
-			}
-			if(trClasses) {
-				html += '\n\t\t\t\t<tr class="' + trClasses + '">';	
-			} else {
-				html += '\n\t\t\t\t<tr>';
-			}
-
-			for (var b = 0; b < row.length; b++) {
-				var valCol = _data.headers[b];
-				var classesTd = _input.hideColumns[valCol] ? 'hide-mobile ' : '';
-				classesTd += _data.className[b];
-
-				var htmlTd = '\n\t\t\t\t\t\t<td class="' + classesTd + '" data-title="' + valCol + '">' + row[b] + '</td>';
-
-				html += htmlTd;
-			}
-
-			html += '\n\t\t\t\t</tr>';
-		}
-		html += '\n\t\t\t</tbody>';
-		html += '\n\t\t</table>';
 		html += '\n\t</div>';
 
 		html += '\n\t<div class="rg-source-and-credit">';

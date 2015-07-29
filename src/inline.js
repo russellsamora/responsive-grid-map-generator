@@ -3,8 +3,9 @@
 		// only trigger one resize event in case multiple maps
 		if(!window.onResizeRgMap) {
 			setupResizeEvent();
-			window.addEventListener("resize", window.onResizeRgMap, false); 
+			window.addEventListener("resize", onResizeRgMap, false); 
 		}
+		onResizeRgMap();
 	};
 
 	var setupResizeEvent = function() {

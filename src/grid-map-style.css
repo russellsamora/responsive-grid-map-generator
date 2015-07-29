@@ -54,7 +54,7 @@
 	display: none;
 }
 .rg-legend {
-	max-width: 480px;
+	max-width: 320px;
 	margin-bottom: 1em;
 }
 .rg-legend-minmax {
@@ -66,7 +66,8 @@
 	color: #888;
 	width: 50%;
 	float: left;
-	line-height: 1;
+	line-height: 1.2;
+	margin: 0;
 }
 .rg-legend-minmax p:last-child {
 	text-align: right;
@@ -80,7 +81,7 @@
 ul.rg-legend-quantitative li {
 	list-style-type: none;
 	float: left;
-	width: 12.5%;
+	width: 14.28%;
 	height: 1em;
 	margin: 0;
 }
