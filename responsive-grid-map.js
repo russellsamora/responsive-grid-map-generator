@@ -22,15 +22,18 @@
 	var _dict;
 	
 	var COLORS = {
-		'sequential': ['#ecf5f9', '#cad9df', '#a8bcc6', '#85a0ac', '#648493', '#416779', '#1f4c60'],
-		'diverging': ['#1f4c60', '#668694', '#aec2ca', '#ededed', '#d6b0ac', '#ac6a63', '#82261c'],
+		'sequential': '[#ecf5f9','#b7c8d0','#859caa','#537383','#1f4c60'],
+		'diverging': ['#1f4c60','#8698a4','#ededed','#bf897d','#82261c'],
 		'ordinal': ['#437286','#75b081', '#d4cead', '#ae6a78', '#c1a5d9']
 	};
+
+	var COLORS = { 'sequential': null, 'diverging': null, 'ordinal': null };
 
 	var GRAY = { dark: '#444', light: '#eee' };
 
 	function init() {
 		setupEvents();
+		createColorScales();
 	}
 
 	function setupEvents() {
@@ -119,9 +122,6 @@
 
 		cb(err, result);
 	}
-
-
-
 	
 	function beginMap(data) {
 		bindDataToStates(data);
