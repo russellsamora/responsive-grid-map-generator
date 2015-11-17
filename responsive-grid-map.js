@@ -371,7 +371,10 @@
 		
 		html += '\n\t<div class="rg-content">';
 		
-		html += '\n\t\t' + $('.rg-content').html();
+
+		var code = $('.rg-content');
+		code.find('svg').removeAttr('width').removeAttr('height');
+		html += '\n\t\t' + code.html();
 
 		html += '\n\t</div>';
 
